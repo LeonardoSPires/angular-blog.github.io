@@ -1,0 +1,18 @@
+.container_articles {
+  padding: 0px 60px 0px 60px;
+}
+
+.articles_main {
+  display: flex;
+  flex-direction: row;
+}
+.articles_others{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px 60px 60px;
+}
+
+.articles_others > hr {
+  border-color: #3A3838;
+}
+

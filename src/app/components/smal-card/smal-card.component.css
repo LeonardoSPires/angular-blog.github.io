@@ -1,0 +1,28 @@
+.container_smal-class {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+.container_smal-class-right {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.container_smal_date > span {
+  color: rgb(65, 63, 63);
+  font-size: 15px;
+  padding: 5px 0px 5px 20px;
+}
+.container_smal_description > p > strong {
+  font-size: 20px;
+}
+p {
+  padding: 10px 0px 0px 20px;
+}
+
+
+
