@@ -1,16 +1,65 @@
-.container__menu-title{
-
-}
 
 .container__menu-title > h1{
-  font-size: 180px;
+  font-size: -webkit-140px-large;
   font-family: 'segoe UI';
   display: flex;
   justify-content: center;
   color: #fffeff;
   border-top: solid #3a38384f 2px;
   border-bottom: solid #3a38383e 2px ;
+  width: auto;
 
 }
+
+@media screen and (max-width: 300px) {
+  .container__menu-title > h1{
+    font-size: 25px;
+
+
+  }
+}
+
+@media screen and (min-width: 301px) {
+  .container__menu-title > h1{
+    font-size: 28px;
+
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .container__menu-title > h1{
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container__menu-title > h1{
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .container__menu-title > h1{
+    font-size: auto;
+
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .container__menu-title > h1{
+    font-size: 110px;
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container__menu-title > h1{
+    font-size: 130px;
+
+  }
+}
+
 
 
