@@ -1,16 +1,16 @@
 
 .container__menu-title > h1{
-  font-size: -webkit-140px-large;
+  font-size: 120px;
   font-family: 'segoe UI';
   display: flex;
   justify-content: center;
   color: #fffeff;
   border-top: solid #3a38384f 2px;
   border-bottom: solid #3a38383e 2px ;
-  width: auto;
+  width: 100%;
 
 }
-
+/*
 @media screen and (max-width: 300px) {
   .container__menu-title > h1{
     font-size: 25px;
@@ -60,6 +60,6 @@
 
   }
 }
-
+*/
 
 

@@ -9,15 +9,15 @@ export class SmalCardComponent implements OnInit {
 
   @Input()
   photoCover:string =""
-  @Input()
-  cardTitle:string =""
+
   @Input()
   cardDescription:string =""
 
-  constructor () {  }
-  ngOnInit() {
+  @Input()
+  id:string="0"
 
-
+  constructor () { }
+  ngOnInit():void {
   }
 
 }

@@ -1,12 +1,12 @@
 <div class="container_smal-class">
-  <div class="container_smal_photo">
+  <a [routerLink]="['content', id]">
     <img
-        src="{{ photoCover }}"
-        alt=""
-        >
+      src="{{ photoCover }}"
+    >
+  </a>
   <div class="container_smal-class-right">
     <div class="container_smal_date">
-      <span>29 de junho, 2023</span>
+      <span>03 de maio, 2023</span>
     </div>
     <div class="container_smal_description">
       <p>
@@ -15,7 +15,5 @@
         </strong>
       </p>
     </div>
-  </div>
-
 </div>
 
